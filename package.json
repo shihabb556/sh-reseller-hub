@@ -1,0 +1,43 @@
+{
+  "name": "gadget-bazar-bd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "clsx": "^2.1.1",
+    "html-to-image": "^1.11.13",
+    "jspdf": "^4.2.0",
+    "lucide-react": "^0.563.0",
+    "mongoose": "^9.1.5",
+    "next": "16.1.6",
+    "next-auth": "^4.24.13",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-hot-toast": "^2.6.0",
+    "react-quill": "^2.0.0",
+    "react-quill-new": "^3.8.3",
+    "tailwind-merge": "^3.4.0",
+    "zod-validation-error": "^5.0.0",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "user-agents": "^1.1.669"
+  }
+}
