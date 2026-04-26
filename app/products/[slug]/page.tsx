@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     if (!product) {
         return {
-            title: 'Product Not Found | Gadget Bazar BD',
+            title: 'Product Not Found | SH Reseller Hub',
         };
     }
 
@@ -69,14 +69,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
         name: product.name,
         image: product.images,
         description: product.description,
-        sku: `GB-${product._id.slice(-8).toUpperCase()}`,
+        sku: `SH-${product._id.slice(-8).toUpperCase()}`,
         brand: {
             '@type': 'Brand',
-            name: 'Gadget Bazar BD',
+            name: 'SH Reseller Hub',
         },
         offers: {
             '@type': 'Offer',
-            url: `https://gadgetbazarbd.com/products/${product.slug}`,
+            url: `https://shresellerhub.com/products/${product.slug}`,
             priceCurrency: 'BDT',
             price: (product.discountPrice && product.discountPrice > 0) ? product.discountPrice : product.price,
             availability: product.stock > 0 ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
@@ -115,7 +115,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                                     <CheckCircle2 className="h-3 w-3" /> In Stock
                                 </span>
                                 <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest bg-gray-50 px-3 py-1 rounded-full border border-gray-100">
-                                    SKU: GB-{product._id.slice(-8).toUpperCase()}
+                                    SKU: SH-{product._id.slice(-8).toUpperCase()}
                                 </span>
                             </div>
 
@@ -228,7 +228,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                                 { label: 'Category', value: product.category },
                                 { label: 'Sub Category', value: product.subCategory || 'N/A' },
                                 { label: 'Stock Status', value: product.stock > 0 ? 'In Stock' : 'Out of Stock' },
-                                { label: 'SKU', value: `GB-${product._id.slice(-8).toUpperCase()}` },
+                                { label: 'SKU', value: `SH-${product._id.slice(-8).toUpperCase()}` },
                                 { label: 'Warranty', value: '1 Year Official' }
                             ].map((spec, i) => (
                                 <div key={i} className={`flex justify-between p-5 text-sm ${i % 2 === 0 ? 'bg-gray-50/50' : 'bg-white'}`}>

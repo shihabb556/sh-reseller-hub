@@ -49,7 +49,7 @@ export default function Navbar() {
                                 <Flag className="h-6 w-6" fill="currentColor" />
                             </div>
                             <div className="hidden md:block">
-                                <span className="text-xl font-black text-gray-900 tracking-tighter uppercase italic">Gadget Bazar BD</span>
+                                <span className="text-xl font-black text-gray-900 tracking-tighter uppercase italic">SH Reseller Hub</span>
                             </div>
                         </Link>
 
@@ -138,7 +138,7 @@ export default function Navbar() {
                                         </>
                                     ) : (
                                         <div className="p-4 space-y-3">
-                                            <p className="text-sm text-gray-500 font-medium mb-2">Welcome to ElectroMart</p>
+                                            <p className="text-sm text-gray-500 font-medium mb-2">Welcome to SH Reseller Hub</p>
                                             <Link href="/auth/login" className="block">
                                                 <Button className="w-full rounded-xl bg-blue-600 hover:bg-blue-700 py-5 font-black uppercase text-xs tracking-widest">Login</Button>
                                             </Link>

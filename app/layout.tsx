@@ -10,16 +10,16 @@ import MetaPixel from "@/components/MetaPixel";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://gadget-bazar-bd.vercel.app'), // Replace with actual production URL if known
+  metadataBase: new URL('https://sh-reseller-hub.vercel.app'), // Replace with actual production URL if known
   title: {
-    default: "Gadget Bazar BD - Premium E-commerce Experience",
-    template: "%s | Gadget Bazar BD"
+    default: "SH Reseller Hub - Premium E-commerce Experience",
+    template: "%s | SH Reseller Hub"
   },
-  description: "Gadget Bazar BD is your one-stop shop for premium gadgets, electronics, and accessories in Bangladesh. Discover top brands at the best prices.",
-  keywords: ["Gadget Bazar BD", "Gadgets Bangladesh", "Online Shopping BD", "Electronics Dhaka", "Premium Gadgets"],
-  authors: [{ name: "Gadget Bazar BD Team" }],
-  creator: "Gadget Bazar BD",
-  publisher: "Gadget Bazar BD",
+  description: "SH Reseller Hub is your one-stop shop for premium gadgets, electronics, and accessories in Bangladesh. Discover top brands at the best prices.",
+  keywords: ["SH Reseller Hub", "Gadgets Bangladesh", "Online Shopping BD", "Electronics Dhaka", "Premium Gadgets"],
+  authors: [{ name: "SH Reseller Hub Team" }],
+  creator: "SH Reseller Hub",
+  publisher: "SH Reseller Hub",
   robots: {
     index: true,
     follow: true,
@@ -27,25 +27,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_BD",
-    url: "https://gadget-bazar-bd.vercel.app",
-    siteName: "Gadget Bazar BD",
-    title: "Gadget Bazar BD - Premium Gadgets & Electronics",
-    description: "Premium gadgets and electronics at your doorstep. Shop the latest tech with Gadget Bazar BD.",
+    url: "https://sh-reseller-hub.vercel.app",
+    siteName: "SH Reseller Hub",
+    title: "SH Reseller Hub - Premium Gadgets & Electronics",
+    description: "Premium gadgets and electronics at your doorstep. Shop the latest tech with SH Reseller Hub.",
     images: [
       {
         url: "/og-image.jpg", // Ensure this exists or use a generic logo
         width: 1200,
         height: 630,
-        alt: "Gadget Bazar BD",
+        alt: "SH Reseller Hub",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gadget Bazar BD - Premium Gadgets & Electronics",
+    title: "SH Reseller Hub - Premium Gadgets & Electronics",
     description: "Premium gadgets and electronics at your doorstep.",
     images: ["/og-image.jpg"],
-    creator: "@gadget-bazar-bd",
+    creator: "@sh-reseller-hub",
   },
 };
 

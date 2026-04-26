@@ -28,7 +28,7 @@ export default function Footer() {
                         </div>
                         <div className="flex items-center gap-3">
                             <Mail className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                            <p className="text-sm text-gray-600">customer.care@electromart.com</p>
+                            <p className="text-sm text-gray-600">customer.care@shresellerhub.com</p>
                         </div>
 
                         <div className="pt-4">
@@ -55,10 +55,10 @@ export default function Footer() {
 
                     {/* Company Links */}
                     <div>
-                        <h3 className="text-sm font-black text-gray-900 uppercase tracking-widest mb-6">Gadget Bazar BD</h3>
+                        <h3 className="text-sm font-black text-gray-900 uppercase tracking-widest mb-6">SH Reseller Hub</h3>
                         <ul className="space-y-4">
                             <li><Link href="#" className="text-sm text-gray-500 hover:text-blue-600 transition-colors font-medium">About Us</Link></li>
-                            <li><Link href="#" className="text-sm text-gray-500 hover:text-blue-600 transition-colors font-medium">Gadget Bazar BD Blog</Link></li>
+                            <li><Link href="#" className="text-sm text-gray-500 hover:text-blue-600 transition-colors font-medium">SH Reseller Hub Blog</Link></li>
                             <li><Link href="#" className="text-sm text-gray-500 hover:text-blue-600 transition-colors font-medium">Join our Affiliate Program</Link></li>
                             <li><Link href="#" className="text-sm text-gray-500 hover:text-blue-600 transition-colors font-medium">Cookies Policy</Link></li>
                         </ul>
@@ -96,7 +96,7 @@ export default function Footer() {
 
                 <div className="border-t border-gray-50 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs font-bold text-gray-400 uppercase tracking-[0.2em]">
-                        © {new Date().getFullYear()} Gadget Bazar BD. All rights reserved.
+                        © {new Date().getFullYear()} SH Reseller Hub. All rights reserved.
                     </p>
                     <div className="flex gap-6">
                         <Link href="/track-order" className="text-[10px] font-black text-gray-400 uppercase tracking-widest hover:text-blue-600 transition-colors">Track Order</Link>

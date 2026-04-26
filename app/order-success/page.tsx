@@ -170,7 +170,7 @@ function OrderSuccessContent() {
                     <div className="flex flex-col md:flex-row justify-between items-start gap-6 border-b-4 border-blue-600 pb-8">
                         <div className="space-y-2">
                             <h1 className="text-5xl font-black text-blue-600 italic tracking-tighter uppercase leading-none">
-                                ELECTRO<br /> <span className="text-blue-500">MART</span>
+                                SH RESELLER<br /> <span className="text-blue-500">HUB</span>
 
                             </h1>
                             <div className="inline-block bg-blue-600 px-3 py-1 rounded-full">
@@ -244,7 +244,7 @@ function OrderSuccessContent() {
                             Thank you for your business!
                         </p>
                         <p className="text-[9px] text-gray-300 font-bold italic">
-                            For support or inquiries, email help@electromart.com or WhatsApp +880 1620-919681
+                            For support or inquiries, email help@shresellerhub.com or WhatsApp +880 1620-919681
 
                         </p>
                     </div>
